@@ -24,5 +24,3 @@ module.exports = async () => {
     }
   });
 };
-
-module.exports().then(console.log);
