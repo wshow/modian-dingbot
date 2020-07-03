@@ -19,7 +19,8 @@ module.exports = async () => {
       text: `### 摩点项目${dayjs().format('MM月DD日HH点')}进度
 - 完成进度：${rate}%
 - 完成金额：${backer_money}元
-- 支持认输：${backer_count}人
+- 支持人数：${backer_count}人
+
 [查看详情](https://zhongchou.modian.com/item/98241.html)`
     }
   });
