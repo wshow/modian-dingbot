@@ -1,0 +1,24 @@
+{
+  "name": "modian-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "pm2 deploy production",
+    "reload": "pm2 reload ecosystem.config.js --env production"
+  },
+  "repository": "git@github.com:shiwangme/modian-dingbot.git",
+  "author": "Willin Wang <willin@willin.org>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cron": "^1.8.2",
+    "dayjs": "^1.8.29"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-shiwangme": "^1.0.3",
+    "eslint-plugin-import": "^2.22.0",
+    "pm2": "^4.4.0",
+    "prettier": "^2.0.5"
+  }
+}
