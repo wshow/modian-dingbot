@@ -10,7 +10,7 @@
   "author": "Willin Wang <willin@willin.org>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "cron": "^1.8.2",
     "dayjs": "^1.8.29"
   },
